@@ -2,11 +2,15 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"space_adder": "11_transforms.sequence.ipynb",
+index = {"masked_concat_pool": "01_models.glp.ipynb",
+         "MaskedConcatPooling": "01_models.glp.ipynb",
+         "model_mask_pooting": "01_models.glp.ipynb",
+         "space_adder": "11_transforms.sequence.ipynb",
          "SpaceTransform": "11_transforms.sequence.ipynb",
          "HFTokenizerWrapper": "11_transforms.sequence.ipynb"}
 
-modules = ["transforms/sequence.py"]
+modules = ["models/glp.py",
+           "transforms/sequence.py"]
 
 doc_url = "https://judowill.github.io/justenough/"
 
